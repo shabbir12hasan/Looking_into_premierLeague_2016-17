@@ -1,5 +1,5 @@
 # Looking into premier league year 2016-17
-
+##### (All graphs and images are stored in this folder: https://github.com/shabbir12hasan/Looking_into_premierLeague_2016-17/tree/master/images)
 Football is a beautiful game which is played aroud the word. And data analytics is one of most powerfull field these days. Both of these sentences aren't related too much however, if we combine both of them together as one then big meaning could be derived. "Data analytics in football", could deliver better insight and observations from different angles, it could be used to help a football team to learn more about its shortcoming while comparing them with other teams and by themselves.
 
 #### What this report covers?

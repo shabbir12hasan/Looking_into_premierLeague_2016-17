@@ -812,10 +812,16 @@ ggplot(players, aes(players$Age)) + geom_bar()
 players[players$Age>37,]
 
 
+
 #checking team squad
 team_squad <- ggplot(players, aes(players$Current_Team)) + geom_bar(aes(fill=players$Current_Team))
 team_squad <-  team_squad + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
+# taking players below 19
+players_u19 <- players[players$Age < 19,]
 
-
+# Checking which teams have more number of youth players
+team_squad_u19 <- ggplot(players_u19, aes(players_u19$Current_Team)) + geom_bar(aes(fill=players_u19$Current_Team))
+team_squad_u19 <-  team_squad_u19 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+team_squad_u19
 

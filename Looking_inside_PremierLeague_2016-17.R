@@ -771,8 +771,8 @@ View(players)
 # writing data in disk
 # write.csv(players, file = "PL_payers_16-17")
 
-
-
+# taking birth month for every player
+players$birthMonth  <- substr(players$`Date of Birth`, 6,7)
 
 ######################### Data Viz ##################
 #Creating plot for number of players from different countries
@@ -825,3 +825,6 @@ team_squad_u19 <- ggplot(players_u19, aes(players_u19$Current_Team)) + geom_bar(
 team_squad_u19 <-  team_squad_u19 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 team_squad_u19
 
+# Checking which month have high birth rate for players
+table(players$birthMonth)
+ggplot(players, aes(players$birthMonth))+geom_bar(fill='skyblue', color='black')+ facet_grid(~players$Pos)

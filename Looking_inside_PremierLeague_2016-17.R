@@ -841,8 +841,8 @@ namebank<-avg_height[[1]]
 #plotting average height of teams
 plot(seq_along(avg_height$Category), avg_height$x, 
 main= "Average height of teams",
-xlab= "Height in meters",
-ylab= "Team's position according to height",
+xlab= "Team's position according to height",
+ylab= "Height in meters",
 col= "red", cex = 1, lty = 2, type="b")
 text(seq_along(avg_height$Category), avg_height$x, labels=namebank, cex= 0.6,  pos=1)
 

@@ -831,3 +831,18 @@ team_squad_u19
 # Checking which month have high birth rate for players
 table(players$birthMonth)
 ggplot(players, aes(players$birthMonth))+geom_bar(fill='skyblue', color='black')+ facet_grid(~players$Pos)
+
+# Avergae height of teams.
+avg_height <- aggregate(players$Height, by=list(Category=players$Current_Team), FUN=mean)
+# Sorting df according to height
+avg_height <- avg_height[with(avg_height, order(x)), ]
+#creating labels
+namebank<-avg_height[[1]]
+#plotting average height of teams
+plot(seq_along(avg_height$Category), avg_height$x, 
+main= "Average height of teams",
+xlab= "Height in meters",
+ylab= "Team's position according to height",
+col= "red", cex = 1, lty = 2, type="b")
+text(seq_along(avg_height$Category), avg_height$x, labels=namebank, cex= 0.6,  pos=1)
+

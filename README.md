@@ -68,6 +68,9 @@ Once we have our data cleaned, we can look into the data and find out what's hap
   3)  Plotting height and weight of players?
   4)  Comparing weight and age of players.
   5)  What does BMI index says?
+  6)  Number of players in each teams?
+  7)  Number of youth players in team(Unders 19).
+  8)  Which month players are born?
     
   
 
@@ -117,6 +120,18 @@ We will plot height and weight of players according to their position, and then 
 
 ##### Considering our finding we could see that majority of players have BMI around 22.5. When we check it into BMI meter it could be seen that average value is aound 20-25. However, we could see that few players have very high BMI, more than 25. What could be possible reasons? Although, atheltes usually have high BMI than normal people as they have more muscles in their body. But it could be possible that some of the players are out of shape and their fitness is not upto the marks.
 
+### 6)  Number of players in each teams?
+<p align="center"><img src="https://github.com/shabbir12hasan/Looking_into_premierLeague_2016-17/blob/master/images/squad_strength.png" width="850"/></p>
 
+### 7)  Number of youth players in team(Unders 19).
+<p align="center"><img src="https://github.com/shabbir12hasan/Looking_into_premierLeague_2016-17/blob/master/images/youth_squad.png" width="850"/></p>
+
+Middlesbrough and West Ham had least number of youth players in their team. Where as Boremouth, Arsenal and Liverpool have lot of young players in their team.
+
+### 8)  Which month players are born?
+<p align="center"><img src="https://github.com/shabbir12hasan/Looking_into_premierLeague_2016-17/blob/master/images/birth_month.png" width="950"/></p>
+
+It could be seen that only few players share their birthdays during May, June and July month.
+  
 ## Enough done for overall analysis abour players and positions, now we should look further into different teams.
 

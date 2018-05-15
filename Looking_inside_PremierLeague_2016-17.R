@@ -768,13 +768,18 @@ players$Age <- sapply(players$`Date of Birth`, calc_age)
 players$Pos <- as.factor(players$Pos)
 
 View(players)
-# writing data in disk
-# write.csv(players, file = "PL_payers_16-17")
 
 # taking birth month for every player
 players$birthMonth  <- substr(players$`Date of Birth`, 6,7)
 
+# writing data in disk
+#write.csv(players, file = "PL_payers_16-17.csv")
+
 ######################### Data Viz ##################
+#importing PL_payers_16-17.csv file
+
+players <- read.csv("PL_payers_16-17.csv")
+
 #Creating plot for number of players from different countries
 ggplot(players, aes(players$Nat)) + geom_bar()
 

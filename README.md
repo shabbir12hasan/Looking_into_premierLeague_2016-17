@@ -135,3 +135,12 @@ It could be seen that only few players share their birthdays during May, June an
   
 ## Enough done for overall analysis abour players and positions, now we should look further into different teams.
 
+### Visualizing teams....
+  1) Average height of players in a team.
+  2) Average weight of players in a team.
+  3) Average age of players in a team.
+
+### 1) Average height of players in a team.
+<p align="center"><img src="https://github.com/shabbir12hasan/Looking_into_premierLeague_2016-17/blob/master/images/team_height_avg.png" width="850"/></p>
+
+Clearly there is a big height difference between the team with tallest players and team with shortest players.
